@@ -1,0 +1,116 @@
+body {
+  background: -webkit-linear-gradient(90deg, #3dcc9e,#7dc487,#a0bb7e,#b6b381);
+  background: linear-gradient(90deg, #3dcc9e,#7dc487,#a0bb7e,#b6b381);
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cont {
+  width: 450px;
+  background: #f0c48a;
+  -webkit-box-shadow: 7px 0px 33px 23px rgba(195, 16, 63, 0.2);
+  -moz-box-shadow: 7px 0px 33px 23px rgba(195, 16, 63, 0.2);
+  box-shadow: 7px 0px 33px 23px rgba(195, 16, 63, 0.2);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 600px;
+  max-height: fit-content;
+
+}
+
+.header {
+  font-size: 40px;
+  text-align: center;
+  padding: 15px 15px 15px;
+}
+
+.addBox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 80%;
+  padding-top: 100px;
+  padding-bottom: 30px;
+}
+
+span {
+  margin-left: -180px;
+}
+
+.inputBox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  width: 100%;
+  margin: 10px;
+}
+
+input {
+  width: 60%;
+  border: none;
+  background-color: rgba(255, 255, 255, 0.64);
+  padding: 10px;
+  border-radius: 10px;
+}
+
+ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0px;
+  padding: 0px;
+}
+
+.inlineItem {
+  width: 350px;
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+    list-style: none;
+}
+
+.box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 300px;
+  border: none;
+  background-color: rgba(255, 255, 255, 0.64);
+  padding: 10px;
+  border-radius: 10px;
+  margin: 12px;
+}
+
+.crossed {
+  text-decoration: line-through #000 1.5px;
+  background-color: #a0bb7e;
+}
+
+.updateForm {
+  display: none;
+}
+
+button {
+  background: #da3e4e;
+  border: none;
+  color:#fff;
+  width: 90px;
+  margin-left: 7px;
+  border-radius: 10px;
+}
+
+.updateFormVisible {
+  display: flex;
+  justify-content: space-between;
+  background: #d48383;
+  width: 280px;
+  padding: 15px;
+}
